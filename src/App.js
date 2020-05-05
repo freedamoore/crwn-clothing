@@ -13,6 +13,7 @@ import { connect } from 'react-redux';
 import { setCurrentUser } from './redux/user/user.actions';
 import {createStructuredSelector} from 'reselect';
 import { selectCurrentUser } from './redux/user/user.selector';
+import { selectCollectionsForPreview} from './redux/shop/shop.selectors';
 
 
 
